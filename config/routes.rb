@@ -9,7 +9,7 @@ Rails.application.routes.draw do
   
   # get 'pages/homepage', to: 'pages#homepage'
   # setting homepage to be root route:
-  root 'pages#homepage'
+  root 'pages#home'
   # get 'pages/about', to: 'pages#about'
   # change for about page:
   get 'about', to: 'pages#about'
